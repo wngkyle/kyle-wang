@@ -122,7 +122,7 @@ export const BIO = [
   adaptability and innovation in problem-solving.",
 
   "Outside of work, I’m an avid sports enthusiast. I’ve been playing ice hockey for over sixteen years and served as captain of the U18 and U20 National Team in 2020 and 2022 to compete in IIHF World Championships. \
-  I’m also passionate about diving, having spent six months working as a scuba and freediving instructor on Liuqiu Island, located off the southwest coast of Taiwan, before starting college. When I’m not \
+  I’m also passionate about diving, having spent four months working as a scuba and freediving instructor on Liuqiu Island, located off the southwest coast of Taiwan, before starting college. When I’m not \
   working or playing sports, you’ll likely find me immersed in a good book or watching a Christopher Nolan film at the theater :)",
 ];
 
