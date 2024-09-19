@@ -110,7 +110,7 @@ export const BIO = [
   "My journey into engineering began at the age of ten when my dad challenged me to build a rubber band gun using tree branches we collected from the backyard. From that moment, \
   I was hooked—captivated by the process of transforming ideas into reality and bridging the gap between imagination and the tangible world through creative problem-solving.",
 
-  "Fast forward to today, I’m pursuing a major in CompE and a minor in Cybersecurity, a decision I consider one of the best I’ve made in my life. At school, I’ve been fortunate \
+  "Fast forward to today, I’m pursuing a major in Computer Engineering and a minor in Cybersecurity, a decision I consider one of the best I’ve made in my life. At school, I’ve been fortunate \
   to meet an incredible group of friends, with whom I’ve worked on a wide range of projects. Through these experiences, I’ve learned engineering is not only about technical expertise \
   and finishing every sprint but also about effective communication and building strong relationships with the people you collaborate with.",
 
