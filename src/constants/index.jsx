@@ -259,7 +259,7 @@ export const LANGUAGES = [
 
 export const EXPERIENCES = [
   {
-    title: "Research and Development Engineer",
+    title: "Embedded System Engineer / R&D Engineer",
     company: "Bright Toward Industrial Co., Ltd",
     duration: "January 2024 - August 2024",
     description: [
@@ -272,7 +272,7 @@ export const EXPERIENCES = [
     ]
   },
   {
-    title: "Embedded Software Engineer",
+    title: "Embedded System Engineer",
     company: "Aquivio, Inc.",
     duration: "June 2023 - January 2024",
     description: [
