@@ -18,6 +18,7 @@ const intro_2 = "Beyond streamlining the user experience, the app also tracks an
     This data helps them assess the performance of the dispenser and analyze sales trends, such as which drink flavors or infusions are most popular. \
     With this information, businesses can make informed decisions to optimize sales and operations. Additionally, the app offers a variety of \
     payment options, including credit cards, member points, and Easy Card, ensuring flexibility and convenience for customers."
+const technologies_used = "Technologies used: React, Typescript, Redux, Tailwind CSS, Expo, Figma";
 
 const Aquivio = () => {
     useEffect(() => {
@@ -44,6 +45,9 @@ const Aquivio = () => {
                             </p>
                             <p className="mt-10 text-white">
                                 {intro_2}
+                            </p>
+                            <p className="mt-10 text-white">
+                                {technologies_used}
                             </p>
                         </div>
                         <div className="flex flex-row flex-wrap items-center justify-center mt-12">

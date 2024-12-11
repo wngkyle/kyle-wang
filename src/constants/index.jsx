@@ -267,8 +267,11 @@ export const EXPERIENCES = [
       "Designed and implemented Single-In-Line (SIP) reed relay reliability test system measuring mechanical bounce, static contact resistance, and dynamic contact resistance for precise lifetime prediction and product classification.",
       "Modularized test systems with replaceable control unit and components, reducing downtime and costs by 95%.",
       "Developed embedded software on ARM Cortex-M7 processor for real-time automated control and measurement.",
-      "Architected full-stack application using React, Electron, and Flask automating wafer test result analysis and visualization, improving team productivity by 85%.",
       "Designed multi-layer PCBs with arc prevention and optimized EMI, SI, and PI, reducing system failure to 0%.",
+      "Architected full-stack application using React, Electron, and Flask automating wafer test result analysis and visualization, improving team productivity by 85%.",
+      "Utilized regression analysis, cluster analysis, and chi-square tests to analyze 70k+ wafer test results, enabling wafer engineers to evaluate usability and reliability with 95% accuracy.",
+      "Performed failure and yield analysis to identify causes and trends, improving defect detection and process reliability.",
+      "Evaluated manufacturing metrics, such as defect per million parts (DPPM), defect density, and process capability indices, to optimize production quality and efficiency.",
     ]
   },
   {
@@ -301,7 +304,7 @@ export const EXPERIENCES = [
       "Led the development of high-performance supercapacitor supplying 2000J additional power to the robot.",
       "Devised crowbar circuits for the power system to safeguard against overvoltage conditions.",
       "Implemented a 3S battery management system with overvoltage and overcurrent protection to ensure safe and efficient balance charging.",
-      "Collaborated with a team of more than 15+ engineers to create hardware solutions and new PCBs, enhancing the overall performance by more than 50%.",
+      "Collaborated with a team of 15+ student engineers to create hardware solutions and new PCBs, enhancing the overall performance by more than 50%.",
     ]
   },
   {

@@ -43,6 +43,7 @@ const sizingDesign =
     engineering sample that is to be built for this project, this value stands at 30 [kph]. It's important to note that the lift coefficient is currently \
     underestimated, and the lift contribution from the fuselage and tail is disregarded in this calculation. Consequently, these velocity estimations are \
     deemed conservative due to these factors not being fully accounted for.";
+const technologies_used = "Technologies Used: C, C++, I2C, PID, Eagle CAD, KiCAD, Fusion 360, Arduino, Teensy 4.1";
 
 
 const EVTOL = () => {
@@ -76,6 +77,9 @@ const EVTOL = () => {
                             </p>
                             <p className="mt-10 text-white">
                                 {sizingDesign}
+                            </p>
+                            <p className="mt-10 text-white">
+                                {technologies_used}
                             </p>
                             
                             <div className="flex flex-col my-10 items-center justify-center lg:hidden">

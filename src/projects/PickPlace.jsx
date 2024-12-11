@@ -38,7 +38,7 @@ const method_4 = "A five degree polynomials is used for computing desired positi
     starting and ending positions. If linear time interpolation in which only 2 constraints are established is used, constant \
     desired velocity and acceleration will be created, and this can pose potential problems since the robot starts from rest, \
     and we want velocity and acceleration to be zero initially.";
-
+const technologies_used = "Technologies Used: Python, NumPy, Matplotlib, PyBullet, PID Control Theory";
 
 const PickPlace = () => {
     useEffect(() => {
@@ -74,6 +74,9 @@ const PickPlace = () => {
                             </p>
                             <p className="mt-10 text-white">
                                 {method_4}
+                            </p>
+                            <p className="mt-10 text-white">
+                                {technologies_used}
                             </p>
                             
                             <div className="flex flex-col my-10 items-center justify-center lg:hidden">

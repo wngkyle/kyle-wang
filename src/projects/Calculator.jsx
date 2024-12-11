@@ -7,9 +7,10 @@ const duration = "November 2022 - December 2022";
 const intro = "This user-friendly calculator, developed using React, is designed to perform essential mathematical operations \
   such as addition, subtraction, multiplication, and division. The calculator is flexible, allowing users to work with both \
   whole numbers and decimals, making it a versatile tool for everyday calculations. Its intuitive interface lets users simply \
-  tap the number buttons and operators to perform their calculations, with results displayed at the top of the screen."
+  tap the number buttons and operators to perform their calculations, with results displayed at the top of the screen.";
 const intro_2 = "Built with React, HTML, CSS, and Javascript using CreateReactApp, the calculator combines simplicity and \
-  functionality, offering a smooth and efficient user experience."
+  functionality, offering a smooth and efficient user experience.";
+const technologies_used = "Technologies Used: React, HTML, CSS, Javascript";
 
 import cal_2 from "../assets/calculator-2.gif";
 
@@ -39,6 +40,9 @@ const Calculator = () => {
                         <p className="mt-10 text-white">
                             {intro_2}
                         </p>
+                        <p className="mt-10 text-white">
+                            {technologies_used}
+                        </p>
                         <div className="flex flex-col my-10 items-center justify-center lg:hidden">
                             <img src={cal_2} width={500} height={500} alt="eVTOL" className="rounded-3xl my-5"/> 
                         </div>
@@ -51,7 +55,7 @@ const Calculator = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-20 w-full" />
+            <div className="h-96 w-full" />
         </div>
     </div>
   )

@@ -4,7 +4,7 @@ const Work = () => {
 
   return (
     <section id="work" className="m-10 w-full">
-      <h2 className="mt-24 mb-10 text-center text-4xl lg:text-5xl">Work Experince</h2>
+      <h2 className="mt-24 mb-10 text-center text-4xl lg:text-5xl">Work Experience</h2>
       <div className="mx-6 md:mx-16 lg:mx-32 mt-20">
         {
           EXPERIENCES.map((item, index) => {

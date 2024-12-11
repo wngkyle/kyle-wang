@@ -18,7 +18,7 @@ const Skills = () => {
           {
             HARDWARE_SKILLS.map((item, index) => {
               return (
-                <div>
+                <div key={index}>
                   <div className="flex flex-row justify-between mx-8 my-5">
                     <p>{item.name}</p>
                     <p>{item.experience}</p>
@@ -35,7 +35,7 @@ const Skills = () => {
           {
             SOFTWARE_SKILLS.map((item, index) => {
               return (
-                <div>
+                <div key={index}>
                   <div className="flex flex-row justify-between mx-8 my-5">
                     <div className="w-6/12">
                       <p>{item.name}</p>

@@ -13,6 +13,7 @@ const intro = " The aim of this project is to create a gesture-controlled lock, 
   the LEDs in a soothing green, while an unsuccessful one will be signaled by a red LED display. In the event of three \
   consecutive failed attempts, the device will automatically lock itself for a period of 3 minutes. After this duration, \
   users can resume their attempts to input the gesture."
+const technologies_used = "Technologies Used: C++, SPI, ATMega32u4 Processor, LIS3DH Triple-Axis Accelerometer, Moving Average Filter";
 
 const EmbeddedSentry = () => {
   useEffect(() => {
@@ -37,6 +38,9 @@ const EmbeddedSentry = () => {
                         <p className="mt-10 text-white">
                             {intro}
                         </p>
+                        <p className="mt-10 text-white">
+                            {technologies_used}
+                        </p>
                         <div className="flex flex-col my-10 items-center justify-center lg:hidden">
                             <img src={embedded} width={300} height={300} alt="eVTOL" className="rounded-3xl my-5"/> 
                         </div>
@@ -49,7 +53,7 @@ const EmbeddedSentry = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-20 w-full" />
+            <div className="h-40 w-full" />
         </div>
     </div>
   )

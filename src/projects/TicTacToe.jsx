@@ -46,7 +46,8 @@ const TicTacToe = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-64 w-full" />
+            <div className="h-96 w-full" />
+            <div className="h-20 w-full" />
         </div>
     </div>
   )

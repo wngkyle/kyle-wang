@@ -8,7 +8,7 @@ const intro = "This project focuses on developing an assembler, disassembler, an
   The assembler is designed to be case-insensitive and flexible in formatting, allowing various spacing conventions \
   between operation codes and register values. It processes assembly code into machine code, handling multiple labels \
   in a single line, and uses a series of formatting and conversion functions to ensure accurate assembly to machine \
-  code translation."
+  code translation.";
 const intro_2 = "The disassembler is responsible for translating machine code back into assembly instructions and simulating \
   the behavior of a processor. It decodes machine instructions into components like opcodes, registers, and immediate \
   values, using a set of logical operations to simulate memory access, arithmetic operations, and branching. Helper functions a\
@@ -16,7 +16,8 @@ const intro_2 = "The disassembler is responsible for translating machine code ba
 const intro_3 = "The simulator mimics the processor's operation, with a strong focus on cache behavior. It supports up to two \
   customizable cache levels and handles memory read/write instructions through a cache lookup system. The program implements \
   policies like Least Recently Used (LRU) for cache eviction and requires correct cache configurations for proper execution, \
-  as it doesn't automatically correct user input errors."
+  as it doesn't automatically correct user input errors.";
+const technologies_used = "Technologies Used: C++, Python, x86 Assembly Language, Cache Memory, Pipelining";
 
 const Processor120 = () => {
   useEffect(() => {
@@ -46,9 +47,15 @@ const Processor120 = () => {
                   <p className="mt-10 text-white">
                     {intro_3}
                   </p>
+                  <p className="mt-10 text-white">
+                    {intro_3}
+                  </p>
+                  <p className="mt-10 text-white">
+                    {technologies_used}
+                  </p>
                 </div>
             </div>
-            <div className="h-20 w-full" />
+            <div className="h-40 w-full" />
         </div>
     </div>
   )

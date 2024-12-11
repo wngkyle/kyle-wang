@@ -9,12 +9,13 @@ const duration = "January 2022 - February 2022";
 const intro = "This Music Web App is a React-based application that integrates with the Spotify Web API to \
   provide users with access to Spotify's entire music library. Designed to enhance the music streaming experience, \
   the app includes a unique feature that displays song lyrics during playback, allowing users to enjoy their favorite \
-  tracks while following along with the lyrics."
+  tracks while following along with the lyrics.";
 const intro_2 = "Upon logging in with their Spotify accounts, users can explore the music library by searching for songs \
   or artists. The search results are conveniently displayed below the search bar, allowing easy navigation. Once a song is \
   selected, the app transitions to player mode, where users can control playback, adjust the volume, and add tracks to their \
   'Liked Songs' playlist. The inclusion of real-time lyrics adds an extra layer of engagement, making the streaming experience \
-  more immersive and interactive."
+  more immersive and interactive.";
+const technologies_used = "Technologies used: Express.js, React.js, Axios, CORS, JSON Web Token, Material UI, Bootstrap";
 
 const MusicApp = () => {
   useEffect(() => {
@@ -42,6 +43,9 @@ const MusicApp = () => {
                         <p className="mt-10 text-white">
                             {intro_2}
                         </p>
+                        <p className="mt-10 text-white">
+                            {technologies_used}
+                        </p>
                         <div className="flex flex-col my-10 items-center justify-center lg:hidden">
                             <img src={musicapp2} width={500} height={500} alt="eVTOL" className="rounded-3xl my-5"/> 
                         </div>
@@ -54,7 +58,7 @@ const MusicApp = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-20 w-full" />
+            <div className="h-80 w-full" />
         </div>
     </div>
   )
