@@ -1,6 +1,33 @@
 import { EXPERIENCES } from "../constants";
 
 const Work = () => {
+  const fetchDescription = (item) => {
+    if (item.company == "Bright Toward Industrial Co., Ltd") {
+      return (
+        <>
+          <p className="-mx-5 text-xl font-bold">Hardware</p>
+          {item.description_hardware.map((script, index) => {
+            return (
+              <li key={index}>{script}</li>
+            );
+          })}
+          <br/>
+          <p className="-mx-5 text-xl font-medium">Software</p>
+          {item.description_software.map((script, index) => {
+            return (
+              <li key={index}>{script}</li>
+            );
+          })}
+        </>
+      )
+    } else {
+      return item.description.map((script, index) => {
+        return (
+          <li key={index}>{script}</li>
+        )
+      })
+    }
+  }
 
   return (
     <section id="work" className="m-10 w-full">
@@ -15,13 +42,7 @@ const Work = () => {
                   <h4 className="my-0.5 text-white/85 text-base lg:text-xl">{item.company}</h4>
                   <p className="text-white/60">{item.duration}</p>
                   <ul className="mt-6 mb-4 mx-8 list-disc">
-                    {
-                      item.description.map((script, index) => {
-                        return (
-                          <li key={index}>{script}</li>
-                        )
-                      })
-                    }
+                    {fetchDescription(item)}
                   </ul>
                 </div>
                 {

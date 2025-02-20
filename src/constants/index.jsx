@@ -262,12 +262,14 @@ export const EXPERIENCES = [
     title: "Embedded System Engineer / R&D Engineer",
     company: "Bright Toward Industrial Co., Ltd",
     duration: "January 2024 - August 2024",
-    description: [
-      "Engineered a high-voltage SiC and GaN MOSFET test system with HTRB and HTGB capabilities for TSMC, accommodating up to 96 devices per test and boosting test efficiency by 300%.",
-      "Designed and implemented Single-In-Line (SIP) reed relay reliability test system measuring mechanical bounce, static contact resistance, and dynamic contact resistance for precise lifetime prediction and product classification.",
+    description_hardware: [
+      "Engineered high-voltage SiC and GaN MOSFET test system with HTRB and HTGB capabilities for TSMC, accommodating up to 96 devices per test and boosting test efficiency by 300%.",
+      "Design and built distributed multi-processor relay reliability test system utilizing ARM and AVR microcontrollers, leveraging SPI, I2C, and CAN protocols for inter-processor and sensor communication.",
       "Modularized test systems with replaceable control unit and components, reducing downtime and costs by 95%.",
-      "Developed embedded software on ARM Cortex-M7 processor for real-time automated control and measurement.",
       "Designed multi-layer PCBs with arc prevention and optimized EMI, SI, and PI, reducing system failure to 0%.",
+    ],
+    description_software: [
+      "Developed embedded software on ARM Cortex processors using FreeRTOS for real-time automated control and priority-based scheduling, improving system responsiveness and data accuracy by more than 15%.",
       "Architected full-stack application using React, Electron, and Flask automating wafer test result analysis and visualization, improving team productivity by 85%.",
       "Utilized regression analysis, cluster analysis, and chi-square tests to analyze 70k+ wafer test results, enabling wafer engineers to evaluate usability and reliability with 95% accuracy.",
       "Performed failure and yield analysis to identify causes and trends, improving defect detection and process reliability.",
